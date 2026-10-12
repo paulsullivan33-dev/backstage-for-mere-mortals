@@ -1,0 +1,21 @@
+site_name: Backstage for Mere Mortals
+site_description: Plain-language Backstage guides — no CS degree required.
+site_url: https://paulsullivan33-dev.github.io/backstage-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Backstage Is: what-backstage-is.md
+  - The Software Catalog: software-catalog.md
+  - Software Templates: software-templates.md
+  - TechDocs: techdocs.md
+  - Plugins: plugins.md
+  - Running Backstage: running-backstage.md
+  - Backstage and GitOps: backstage-and-gitops.md
+  - Adoption Pitfalls: adoption-pitfalls.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
